@@ -1,6 +1,6 @@
 <div align="center">
 
-# Curriculm Vitae
+# Curriculum Vitae
 **My personal CV based on the [Awesome CV template](https://github.com/posquit0/Awesome-CV).**
 
 </div>
