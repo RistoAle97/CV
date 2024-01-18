@@ -1,0 +1,42 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Referees}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+%\begin{cventries}
+\newcommand*{\emaillink}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{awesome} #1}}
+
+\newcommand{\cvdoublecolumn}[2]{%
+    \begin{minipage}[t]{{.45\linewidth}}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{{.45\linewidth}}#2\end{minipage}%
+}
+
+\newcommand{\cvreference}[5]{
+    \entrytitlestyle{#1}\newline
+    \entrypositionstyle{#2}\newline
+    \descriptionstyle{#3}\newline
+    \ifthenelse{\equal{#4}{}}{}{\acvHeaderIconSep\headersocialstyle{#4}\newline}
+    \ifthenelse{\equal{#5}{}}{}{\href{mailto:#5}{\headersocialstyle{\faEnvelope}\acvHeaderIconSep\headersocialstyle{#5}\newline}}
+}
+
+\cvdoublecolumn{\cvreference{Prof. Davide Bacciu}
+    {Department of Computer Science}
+    {University of Pisa}
+    {Largo B. Pontecorvo 3, 56127 Pisa}
+    {davide.bacciu@unipi.it}
+}
+{}
+\iffalse{\cvreference{Dr. Michele Resta}
+    {Department of Computer Science}
+    {University of Pisa}
+    {Largo B. Pontecorvo 3, 56127 Pisa}
+    {michele.resta@phd.unipi.it}
+}\fi
+
+%---------------------------------------------------------
+%\end{cventries}

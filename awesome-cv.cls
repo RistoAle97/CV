@@ -429,8 +429,12 @@
       \ifthenelse{\equal{\@photoedge}{edge}}%
         {\def\@photoborder{darkgray}}%
         {\def\@photoborder{none}}%
+      %\begin{tikzpicture}%
+        %\node[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill overzoom image=\@photo] () {}; 
+      %\end{tikzpicture}
+      %\begin{tikzpicture}\path[fill overzoom image=\@photo] (0,0) rectangle (3.1cm,4cm); \end{tikzpicture}
       \begin{tikzpicture}%
-        \node[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill overzoom image=\@photo] () {};
+        \path[\@photoshape, draw=\@photoborder, line width=0.3mm, inner sep=\photodim, fill overzoom image=\@photo] (0,0) rectangle (3.1cm,4cm);
       \end{tikzpicture}
     }%
   }
