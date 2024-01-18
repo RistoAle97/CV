@@ -8,4 +8,4 @@
 ---
 
 ## :pushpin: Preview
-[![CV](https://github.com/RistoAle97/CV/blob/main/cv_preview.png)](https://github.com/RistoAle97/CV/blob/main/CV.pdf)
+[![CV](https://github.com/RistoAle97/CV/blob/main/cv_preview.png)](https://github.com/RistoAle97/CV/blob/main/cv_ristori_with_projects.pdf)
